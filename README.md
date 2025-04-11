@@ -233,4 +233,4 @@ Zerayacob Meshesha
 * **LinkedIn:** [linkedin.com/in/zerayacob-meshesha](https://www.linkedin.com/in/zerayacob-meshesha)
 * **Email:** [zmeshesha1@gmail.com](mailto:zmeshesha1@gmail.com)
 
-Project Link: [https://github.com/zmeshcode/your_repository_name](https://github.com/zmeshcode/your_repository_name) 
+Project Link: [https://github.com/ZMeshCode/etl-pipeline-for-genai](https://github.com/ZMeshCode/etl-pipeline-for-genai) 
