@@ -1,0 +1,45 @@
+# Core dependencies
+unstructured>=0.11.0  # Main library for processing unstructured data
+python-dotenv>=1.0.0  # For loading environment variables from .env file
+pydantic>=2.4.0       # For data validation and settings management
+loguru>=0.7.0         # For better logging
+streamlit>=1.26.0     # Web UI framework
+celery>=5.3.4         # Asynchronous task queue
+redis>=5.0.1          # Redis client for Python (used with Celery)
+
+# PDF and document processing
+pypdf>=3.15.0         # For processing PDF files
+lxml>=4.9.3           # For HTML/XML processing
+python-docx>=0.8.11   # For processing DOCX files
+beautifulsoup4>=4.12.2  # For HTML parsing
+
+# Data handling
+jsonlines>=3.1.0      # For working with JSON Lines format
+pandas>=2.0.0         # Optional, for data manipulation
+
+# Testing
+pytest>=7.4.0         # For unit tests
+pytest-cov>=4.1.0     # For test coverage reports
+
+# Development tools
+black>=23.3.0         # Code formatter
+isort>=5.12.0         # Import sorter
+flake8>=6.0.0         # Linter
+pre-commit>=3.3.2     # For git pre-commit hooks
+
+# Optional dependencies for embedding generation (Phase 3)
+# Note: There can be compatibility issues between these packages.
+# For a working combination, try: 
+# huggingface-hub==0.14.1 sentence-transformers==2.0.0 transformers==4.30.0
+# If you're having trouble, the pipeline has a fallback mechanism that generates
+# random embeddings for development and testing.
+#
+# sentence-transformers>=2.0.0  # For embedding generation 
+# huggingface-hub>=0.14.1      # Required by transformers/sentence-transformers
+# transformers>=4.30.0         # Used by sentence-transformers
+
+# Other optional dependencies (install as needed)
+# requests>=2.31.0   # For API requests, if needed
+# aiohttp>=3.8.5     # For async HTTP requests (Phase 5)
+# chromadb>=0.4.15   # Vector database (Phase 3/5)
+# prefect>=2.13.0    # For workflow orchestration (Phase 4) 
